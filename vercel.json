@@ -10,4 +10,12 @@
       }
     ]
   }
+  {
+    "routes": [
+      {
+        "src": "/stream.html",
+        "dest": "/public/stream.html"
+      }
+    ]
+  }
   
