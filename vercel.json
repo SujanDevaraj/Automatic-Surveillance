@@ -1,19 +1,12 @@
 {
-    "version": 2,
-    "builds": [
+    "rewrites": [
       {
-        "src": "api/*.js",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/api/video_feed1",
-        "dest": "/api/video_feed1.js"
+        "source": "/video_feed1",
+        "destination": "http://your_ip1:5000/video_feed"
       },
       {
-        "src": "/api/video_feed2",
-        "dest": "/api/video_feed2.js"
+        "source": "/video_feed2",
+        "destination": "http://your_ip2:8080/"
       }
     ]
   }
