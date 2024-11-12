@@ -8,9 +8,7 @@
         "source": "/video_feed2",
         "destination": "http://your_ip2:8080/"
       }
-    ]
-  }
-  {
+    ],
     "routes": [
       {
         "src": "/stream.html",
